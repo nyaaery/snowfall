@@ -1,8 +1,6 @@
-import { Snowfall } from "./Snowfall";
+import { Data } from "ncode";
 
-export interface Data {
-    [key: string]: number | bigint
-}
+import { Snowfall } from "./Snowfall";
 
 export class Snowflake<T extends Data> {
 

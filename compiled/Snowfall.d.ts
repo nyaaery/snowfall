@@ -1,4 +1,5 @@
-import { Snowflake, Data } from "./Snowflake";
+import { Data } from "ncode";
+import { Snowflake } from "./Snowflake";
 export declare enum IncrementMode {
     /**
      * Reset increment every millisecond. Will await when increment reaches maximum

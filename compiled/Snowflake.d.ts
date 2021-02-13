@@ -1,7 +1,5 @@
+import { Data } from "ncode";
 import { Snowfall } from "./Snowfall";
-export interface Data {
-    [key: string]: number | bigint;
-}
 export declare class Snowflake<T extends Data> {
     #private;
     readonly date: Date;

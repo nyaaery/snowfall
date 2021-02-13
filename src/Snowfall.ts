@@ -1,6 +1,6 @@
-import { NCodeBig } from "ncode";
+import { NCodeBig, Data } from "ncode";
 
-import { Snowflake, Data } from "./Snowflake";
+import { Snowflake } from "./Snowflake";
 import { UniqueGenerator, Unique } from "./UniqueGenerator";
 import { ResetGenerator } from "./ResetGenerator";
 import { CycleGenerator } from "./CycleGenerator";
